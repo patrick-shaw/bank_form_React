@@ -11,7 +11,7 @@ function Navbar() {
     return (
         <header className="container" style={headerStyle}>
             <nav>
-                <div className="title">TotallyMoney</div>
+                <div className="title">The Bank</div>
             </nav>
         </header>
     )

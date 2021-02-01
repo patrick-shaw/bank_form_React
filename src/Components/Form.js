@@ -64,7 +64,7 @@ function Form({ createNewCustomer, inputValues, handleInputChange, handleInputOb
     // GET ADDRESS LIST FROM POSTCODE API
     const getAddress = async (postcode) => {
         if (postcodeRegex.test(postcode)) {
-            const API_KEY = 'J2yiJ6nG10OCqsfLfrot_Q29462'
+            const API_KEY = '78Wa9ELtpkyC6neS3ui8eA30045'
             const res = await fetch(`https://api.getAddress.io/find/${postcode}?api-key=${API_KEY}`);
             const data = await res.json();
             setAddressOptions(data.addresses);
